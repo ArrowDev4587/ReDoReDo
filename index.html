@@ -1,0 +1,50 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>ReDoReDo</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">ReDoReDo</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="navitem w-auto mt-2" aria-current="page" href="index.html">Anasayfa</a>
+            <a class="navitem w-auto mt-2" href="hakkinda.html">Hakkında</a>
+            <a class="navitem w-auto mt-2" href="iletisim.html">İletişim</a>
+          </div>
+        </div>
+      </div>
+      <button class="navbar-toggler navitem w-100 mt-2" type="button" data-bs-toggle="collapse" data-bs-target="#notalarCollapse" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        Eserler
+      </button>
+    </nav>
+    <div id="notalarCollapse" class="collapse-in">
+      <div class="d-flex container-fluid col-md-2 col-sm-12 flex-column align-items-stretch flex-shrink-0 bg-white sidebar sarkilar-container">
+        <a href="#" class="d-flex align-items-center flex-shrink-0 p-3 link-dark text-decoration-none border-bottom">
+          <svg class="bi pe-none me-2" width="30" height="24"><use xlink:href="#bootstrap"></use></svg>
+          <span class="fs-5 fw-semibold">Eserler</span>
+        </a>
+        <div class="list-group list-group-flush border-bottom scrollarea notalar-scroll" id="sarki_liste_div">
+
+        </div>
+      </div>
+    </div>
+    <div class="row-cols-1 container-fluid">
+        <div class="container-fluid col-md-10 w-100 col-sm-12">
+            <img src="" class="nota-img" id="notaImg">
+        </div>
+    </div>
+   
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+  </body>
+</html>
